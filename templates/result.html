@@ -1,0 +1,32 @@
+<!-- templates/result.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Candidate Information</title>
+</head>
+<body>
+  <h1>Candidate Information</h1>
+  <p><strong>Name:</strong> {{ candidate.full_name }}</p>
+  <p><strong>Phone:</strong> {{ candidate.phone }}</p>
+  <p><strong>Email:</strong> {{ candidate.email }}</p>
+  <p><strong>Address:</strong> {{ candidate.address }}</p>
+  
+  <h2>Education</h2>
+  <pre>{{ candidate.education }}</pre>
+  
+  <h2>Experience</h2>
+  <pre>{{ candidate.experience }}</pre>
+  
+  <h2>Certifications</h2>
+  <pre>{{ candidate.certifications }}</pre>
+  
+  <h2>Skills</h2>
+  <pre>{{ candidate.skills }}</pre>
+  
+  <p><strong>Score:</strong> {{ candidate.score }}</p>
+  
+  <h2>Interview Questions</h2>
+  <pre>{{ candidate.interview_questions }}</pre>
+</body>
+</html>
