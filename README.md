@@ -30,5 +30,6 @@ A web application that parses resumes, extracts candidate information, scores ca
 ## Installation
 
 1. Clone the repository
-2. Load a virtual environment and activate it in bash: venv\Scripts\activate
-3. Run project: python -m app
+2. Install Tesseract
+3. Create a virtual environment and activate it in bash
+4. Run project
